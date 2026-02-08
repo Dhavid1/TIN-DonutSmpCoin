@@ -1,0 +1,53 @@
+.Title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 320%;
+
+    text-align: center;
+
+    text-shadow: 1px 1px 1px rgb(63, 63, 63);
+}
+
+.EndStone_IMG {
+    position: absolute;
+    z-index: 1;
+}
+
+.DivValue {
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 300px;
+
+    margin-top: 10%;
+    margin-left: 43%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#ValueElement {
+    position: absolute;
+    z-index: 2;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: azure;
+
+    font-size: 420%;
+}
+
+.InfoBox {
+    position: absolute;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 120%;
+
+    background-color: rgb(253, 243, 255);
+
+    border-width: 10%;
+    border-color: black;
+    border-radius: 2px;
+    border-style: solid;
+}
